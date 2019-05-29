@@ -1,0 +1,87 @@
+body {
+	background-color: lightgrey;
+	margin: 0;
+	padding: 0;
+}
+
+.container {	
+	background-color: yellow;
+	margin: 0 auto;
+	max-width: 800px}
+
+header {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #7B0828;
+	overflow: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+header .logo {
+	background-color: darkblue;
+	float: left;
+}
+
+header nav {
+	background-color: #7B0828;
+	float: right;
+	overflow: auto;
+}
+header nav ul {
+	list-style: none;
+	
+
+
+}
+main {
+	overflow: auto;
+
+}
+
+
+main section { 
+	background-color: red;
+	height: 400px;
+	margin-bottom: 30px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no repeat;
+}
+
+main .large {
+	background-image: url(../images/47e909baf5639364459f05e76255a3d8.jpg);
+}
+
+main .left {
+	background-image: url(../images/47e909baf5639364459f05e76255a3d8.jpg)
+}
+main .right { 
+	background-image: url(../images/47e909baf5639364459f05e76255a3d8.jpg)
+ }
+
+main .small {
+	float: left;
+	height: 300px;
+	width: calc(50% - 15px);
+}
+.small_left {
+	background-image: url(../images/47e909baf5639364459f05e76255a3d8.jpg)
+
+}
+main .left {
+	background-color: blue;
+}
+main .right {
+	background-color: green;
+	float: right;
+}
+
+
+}
+@media screen and (max-width: 800px) {
+	.container { 
+		padding: 0 100px;
+	}
+}
