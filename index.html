@@ -20,21 +20,27 @@
     <button class="presto">Abra Cadabra!</button>
 
     <script type="text/javascript">
-      let myVariable = "Hello World!";
+      var myString = "lion";
+      if (myString === "lizard") {alert ('definately not lizard')}
+        else if (myString === "lion") {alert ('we found a lion on your page')}
+  // else if (myString === ) {}
+
+
+      // let myVariable = "Hello World!";
 
       // alert(myVariable);
 
-      window.onload = function() {
-        // do something when the page loads
-        // alert("welcome");
-      };
-
-      // let btn = document.querySelector(".presto");
-      // btn.onclick = function() {
-      //   let form = document.querySelector(".name_field");
-      //   let form_input = form.value;
-      //   alert(form_input);
+      // window.onload = function() {
+      //   // do something when the page loads
+      //   alert("welcome");
       // };
+
+      let btn = document.querySelector(".presto");
+      btn.onclick = function() {
+        let form = document.querySelector(".name_field");
+        let form_input = form.value;
+        alert(form_input);
+      };
 
       // Conditionals in a function
       // let btn = document.querySelector(".presto");
@@ -54,16 +60,16 @@
       //   }
       // }
 
-      function myFunc(input) {
-        let message = input + " duh!";
+      // function myFunc(input) {
+      //   let message = input + " duh!";
 
-        alert(message);
-      }
+      //   alert(message);
+      // }
 
-      function multiply(num1, num2) {
-        var result = num1 * num2;
-        return result;
-      }
+      // function multiply(num1, num2) {
+      //   var result = num1 * num2;
+      //   return result;
+      // }
       // multiply(4, 7);
     </script>
   </body>
