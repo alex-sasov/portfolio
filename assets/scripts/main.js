@@ -2,13 +2,13 @@ function showMessage() {
   let overlay = document.querySelector("#overlay");
   console.log("message button clicked");
 
-  overlay.classList.add("show");
+  overlay.classList.add("show", "newstyle");
 }
 
 function hideOverlay() {
   let overlay = document.querySelector("#overlay");
   console.log("overlay clicked!");
-  overlay.classList.remove("show");
+  overlay.classList.remove("show", "newstyle");
 }
 
 window.onload = function() {
