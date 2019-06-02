@@ -1,0 +1,96 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+nav{
+  background-color: lightcoral;
+  border-right: 1px solid grey;
+  width: 300px;
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /*padding: 50px 30px 50px 40px;*/
+}
+
+
+nav img {
+  width: 60%;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 60%;
+
+}
+nav ul {
+list-style: none;
+margin: 40px 0 0;
+padding: 0 10px;
+}
+
+nav ul a {
+  display: block;
+  padding: 10px 0 10px 30px;
+  border-bottom: 1px solid gray;
+}
+nav li: first shild a {
+  border-top: 1px solid grey;
+}
+main {
+padding-left: 300px;
+}
+.container {
+  padding: 100px 50px 100px 30px;
+}
+
+.hero_image{
+  background-image: url(../images/one.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 400px;
+  margin: 50px 0 20px;
+}
+
+.three_col {
+  display: flex;
+
+}
+
+.three_col .col {
+  flex: 1;
+  padding: 10px;
+}
+
+.three_col .two{
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.container footer{
+  margin-top: 30px;
+}
+footer .contact{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 0;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+margin-bottom: 30px;
+}
+footer .contact p{
+
+}
+footer .contact ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+footer .contact ul li{
+  display: inline-block;
+}
+
+footer .contact ul li a img {
+  width: 30px;
+}
